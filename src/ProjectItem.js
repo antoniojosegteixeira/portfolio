@@ -18,7 +18,7 @@ export default function ProjectItem({
           sx={{
             display: "flex",
             justifyContent: { xs: "center" },
-            pl: 2,
+            paddingLeft: { md: "16px" },
           }}
         >
           <Link

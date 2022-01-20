@@ -112,24 +112,26 @@ export default function App() {
         <Container>
           <Grid container spacing={4}>
             <Grid item md={7}>
-              <Typography variant="h1" component="h3" color="primary">
-                SOBRE
-              </Typography>
-              <Typography
-                color="primary"
-                variant="subtitle1"
-                sx={{ marginTop: "1rem" }}
-              >
-                Sou Antônio José Teixeira, um desenvolvedor web de 23 anos. Vivo
-                em Cuiabá - Mato Grosso e sou graduando em Análise e
-                Desenvolvimento de Sistemas.
-              </Typography>
-              <Typography color="primary" variant="subtitle1">
-                Minha curiosidade sempre me impulsionou a criar coisas novas,
-                aprender e encontrar minha paixão pela tecnologia. Ao criar
-                aplicações sempre foco em entregar a experiência mais agradável
-                possível.
-              </Typography>
+              <Box sx={{ px: { xs: 1, lg: 0 } }}>
+                <Typography variant="h1" component="h3" color="primary">
+                  SOBRE
+                </Typography>
+                <Typography
+                  color="primary"
+                  variant="subtitle1"
+                  sx={{ marginTop: "1rem" }}
+                >
+                  Sou Antônio José Teixeira, um desenvolvedor web de 23 anos.
+                  Vivo em Cuiabá - Mato Grosso e sou graduando em Análise e
+                  Desenvolvimento de Sistemas.
+                </Typography>
+                <Typography color="primary" variant="subtitle1">
+                  Minha curiosidade sempre me impulsionou a criar coisas novas,
+                  aprender e encontrar minha paixão pela tecnologia. Ao criar
+                  aplicações sempre foco em entregar a experiência mais
+                  agradável possível.
+                </Typography>
+              </Box>
             </Grid>
             <Grid container item md={5}>
               <Grid
