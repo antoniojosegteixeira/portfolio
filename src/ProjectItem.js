@@ -44,7 +44,7 @@ export default function ProjectItem({
           >
             <Box
               sx={{
-                width: "570px",
+                maxWidth: "570px",
                 backgroundColor: "rgba(0,0,0,0)",
               }}
             >

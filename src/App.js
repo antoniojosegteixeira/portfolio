@@ -3,6 +3,7 @@ import { Grid, List, Typography, Container, Link, Box } from "@mui/material";
 import ProjectItem from "./ProjectItem";
 import { ToolIcons } from "./utils/ToolIcons";
 import "./utils/style.css";
+import { rise, appearFromRight } from "./utils/appkeyframes";
 
 export default function App() {
   const contactIcon = {
@@ -54,7 +55,7 @@ export default function App() {
             justifyContent="center"
             sx={{
               backgroundColor: "rgba(7, 8, 10, 0.9)",
-              zIndex: -1,
+              zIndex: 10,
               position: "fixed",
               minHeight: "102vh",
               paddingBottom: "2vh",
@@ -66,11 +67,11 @@ export default function App() {
                 color="primary"
                 align="center"
                 sx={{
-                  transform: "translateY(110%)",
-                  animation: `$rise 1.3s ease-in-out 0.7s forwards`,
                   opacity: 0,
                   margin: "0 1rem",
                   fontSize: { md: "7.5rem" },
+                  transform: "translateY(110%)",
+                  animation: `${rise} 1.3s ease-in-out 0.7s forwards`,
                 }}
               >
                 ANTÔNIO TEIXEIRA
@@ -80,9 +81,10 @@ export default function App() {
                 component="h2"
                 color="primary"
                 sx={{
+                  opacity: 0,
                   margin: "0 1rem",
                   transform: "translateX(110%)",
-                  animation: `$appearFromRight 2.1s ease-in-out 1.3s forwards`,
+                  animation: `${appearFromRight} 2.1s ease-in-out 1.3s forwards`,
                   marginTop: { xs: "1rem", sm: 0 },
                   textAlign: { xs: "center", sm: "right" },
                   fontSize: { xs: "1.8rem", sm: "2.7rem" },
