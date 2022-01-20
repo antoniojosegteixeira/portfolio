@@ -4,6 +4,11 @@ import ProjectItem from "./ProjectItem";
 import { ToolIcons } from "./utils/ToolIcons";
 import "./utils/style.css";
 import { rise, appearFromRight } from "./utils/appkeyframes";
+import burgerImg from "./images/burgerplace.webp";
+import recipeImg from "./images/recipe.jpg";
+import bikeImg from "./images/bike.jpg";
+import shortImg from "./images/shortener.jpg";
+import heroVideo from "./videos/herovideo.mp4";
 
 export default function App() {
   const contactIcon = {
@@ -45,7 +50,7 @@ export default function App() {
           }}
         >
           <video autoPlay muted loop id="bg-video">
-            <source src="/videos/herovideo.mp4" type="video/mp4" />
+            <source src={heroVideo} type="video/mp4" />
           </video>
           <Grid
             container
@@ -216,28 +221,28 @@ export default function App() {
           <List>
             <ProjectItem
               href="https://antoniojosegteixeira.github.io/burger-place-website/"
-              image="/images/burgerplace.webp"
+              image={burgerImg}
               title="Burger Bistro"
               description="Landing page para uma hamburgueria construída com Bootstrap 5."
               tools={["HTML", "CSS", "Javascript", "Bootstrap"]}
             ></ProjectItem>
             <ProjectItem
               href="https://recipeb0ok.herokuapp.com/"
-              image="/images/recipe.jpg"
+              image={recipeImg}
               title="Recipe Book"
               description="Site de receitas consumindo a API Spoonacular."
               tools={["React", "NodeJS", "NextJS", "MaterialUI"]}
             ></ProjectItem>
             <ProjectItem
               href="https://burbankbikeshop.herokuapp.com/"
-              image="/images/bike.jpg"
+              image={bikeImg}
               title="Burbank Bike Shop"
               description="Loja online de mountain bikes em estilo moderno."
               tools={["React", "NodeJS", "MongoDB", "NextJS", "MaterialUI"]}
             ></ProjectItem>
             <ProjectItem
               href="https://tinyurlshortnr.herokuapp.com/"
-              image="/images/shortener.jpg"
+              image={shortImg}
               title="URL Shortener"
               description="Encurtador de URL minimalista e prático."
               tools={[
