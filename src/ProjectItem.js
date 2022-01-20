@@ -51,7 +51,11 @@ export default function ProjectItem({
                 backgroundColor: "rgba(0,0,0,0)",
               }}
             >
-              <img src={image} alt={description} style={{ width: "100%" }} />
+              <img
+                src={`./portfolio/${image}`}
+                alt={description}
+                style={{ width: "100%" }}
+              />
             </Box>
 
             <Box
