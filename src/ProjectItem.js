@@ -23,6 +23,8 @@ export default function ProjectItem({
         >
           <Link
             href={href}
+            target="_blank"
+            onClick={() => window.open(href)}
             sx={{
               position: "relative",
               backgroundColor: "white",
