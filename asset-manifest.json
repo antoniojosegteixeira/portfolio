@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.8a685450.css",
-    "main.js": "/portfolio/static/js/main.b953dce0.js",
+    "main.js": "/portfolio/static/js/main.81c82954.js",
     "static/media/herovideo.mp4": "/portfolio/static/media/herovideo.56b9589c7f8ab2eb6937.mp4",
     "static/media/bike.jpg": "/portfolio/static/media/bike.7f3d8422e5d3ae343757.jpg",
     "static/media/bootstrapicon.png": "/portfolio/static/media/bootstrapicon.a06f5547d48e0a48c5bc.png",
@@ -10,10 +10,10 @@
     "static/media/burgerplace.webp": "/portfolio/static/media/burgerplace.314a2b7b619244cab5c7.webp",
     "index.html": "/portfolio/index.html",
     "main.8a685450.css.map": "/portfolio/static/css/main.8a685450.css.map",
-    "main.b953dce0.js.map": "/portfolio/static/js/main.b953dce0.js.map"
+    "main.81c82954.js.map": "/portfolio/static/js/main.81c82954.js.map"
   },
   "entrypoints": [
     "static/css/main.8a685450.css",
-    "static/js/main.b953dce0.js"
+    "static/js/main.81c82954.js"
   ]
 }
