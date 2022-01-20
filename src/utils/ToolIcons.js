@@ -151,7 +151,7 @@ export const ToolIcons = [
         />
       </svg>
     ),
-    title: "NodeJs",
+    title: "NodeJS",
   },
 
   {

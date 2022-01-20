@@ -151,7 +151,7 @@ export default function App() {
                         alignItems: "center",
 
                         "& svg, img": {
-                          minWidth: "100%",
+                          width: "80px",
                           transition: "all 0.3s ease-in-out",
                         },
                         "& .MuiTypography-body1": {
@@ -229,7 +229,7 @@ export default function App() {
               tools={["React", "NodeJS", "NextJS", "MaterialUI"]}
             ></ProjectItem>
             <ProjectItem
-              href="http://google.com/"
+              href="https://burbankbikeshop.herokuapp.com/"
               image="/images/bike.jpg"
               title="Burbank Bike Shop"
               description="Loja online de mountain bikes em estilo moderno."
