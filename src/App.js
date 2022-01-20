@@ -283,6 +283,7 @@ export default function App() {
                 sx={{
                   display: "flex",
                   justifyContent: { xs: "center", md: "start" },
+                  pt: 1,
                 }}
               >
                 <Link href="https://github.com/antoniojosegteixeira">
