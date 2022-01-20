@@ -6,7 +6,6 @@ import "./utils/style.css";
 
 export default function App() {
   const contactIcon = {
-    fontSize: 40,
     padding: "0 1rem",
     transition: "all 0.3s ease-in-out",
     "&:hover": {
@@ -278,19 +277,19 @@ export default function App() {
                 }}
               >
                 <Link href="https://github.com/antoniojosegteixeira">
-                  <Typography sx={contactIcon} align="center">
+                  <Typography sx={contactIcon} align="center" variant="h3">
                     <i className="fab fa-github"></i>
                   </Typography>
                 </Link>
 
                 <Link href="https://www.linkedin.com/in/antoniojgteixeira/">
-                  <Typography sx={contactIcon} align="center">
+                  <Typography sx={contactIcon} align="center" variant="h3">
                     <i className="fab fa-linkedin"></i>
                   </Typography>
                 </Link>
 
                 <Link href="mailto:antoniojosegteixeira@gmail.com">
-                  <Typography sx={contactIcon} align="center">
+                  <Typography sx={contactIcon} align="center" variant="h3">
                     <i className="fas fa-envelope"></i>
                   </Typography>
                 </Link>
