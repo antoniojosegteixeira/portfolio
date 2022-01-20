@@ -9,7 +9,7 @@ export default function ProjectItem({
   tools,
 }) {
   return (
-    <ListItem style={{ padding: "3rem 0" }}>
+    <ListItem sx={{ padding: "3rem 0" }}>
       <Grid container>
         <Grid
           item
@@ -17,7 +17,8 @@ export default function ProjectItem({
           md={7}
           sx={{
             display: "flex",
-            justifyContent: { xs: "center", md: "right" },
+            justifyContent: { xs: "center" },
+            pl: 2,
           }}
         >
           <Link
@@ -85,10 +86,11 @@ export default function ProjectItem({
           item
           xs={12}
           md={5}
+          lg={4}
           sx={{
             paddingTop: "0.2rem",
+            paddingLeft: { md: "1.5rem", lg: "0rem" },
             textAlign: { xs: "center", md: "left" },
-            paddingLeft: { md: "2.5rem" },
             justifyContent: "center",
             "& h2": {
               padding: "1.2rem 0",
