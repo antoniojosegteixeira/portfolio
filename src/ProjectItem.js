@@ -126,6 +126,10 @@ export default function ProjectItem({
                 "&:hover": {
                   backgroundColor: "#fff",
                   color: "black",
+                  "& span": {
+                    fontWeight: "bold",
+                    color: "black",
+                  },
                 },
               },
             }}
@@ -133,7 +137,13 @@ export default function ProjectItem({
             {tools.map((item) => {
               return (
                 <Grid item key={item}>
-                  {item}
+                  <Typography
+                    component="span"
+                    variant="body2"
+                    sx={{ lineHeight: "1.2rem" }}
+                  >
+                    {item}
+                  </Typography>
                 </Grid>
               );
             })}

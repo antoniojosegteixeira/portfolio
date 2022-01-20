@@ -36,6 +36,12 @@ const theme = responsiveFontSizes(
         fontWeight: "100",
         color: "#fff",
       },
+      body2: {
+        fontFamily: "Raleway",
+        fontSize: "1rem",
+        fontWeight: "100",
+        color: "#fff",
+      },
     },
     palette: {
       primary: { main: "#fff" },

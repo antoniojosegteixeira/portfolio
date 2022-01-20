@@ -2,6 +2,7 @@ import React from "react";
 import { Grid, List, Typography, Container, Link, Box } from "@mui/material";
 import ProjectItem from "./ProjectItem";
 import { ToolIcons } from "./utils/ToolIcons";
+import "./utils/style.css";
 
 export default function App() {
   const contactIcon = {
@@ -14,7 +15,7 @@ export default function App() {
   };
 
   return (
-    <>
+    <Box sx={{ p: 0 }}>
       <Box
         sx={{
           position: "relative",
@@ -313,6 +314,6 @@ export default function App() {
           </Grid>
         </Container>
       </Box>
-    </>
+    </Box>
   );
 }
