@@ -9,6 +9,9 @@ import recipeImg from "./images/recipe.jpg";
 import bikeImg from "./images/bike.jpg";
 import shortImg from "./images/shortener.jpg";
 import heroVideo from "./videos/herovideo.mp4";
+import bgLarge from "./images/bgl.jpeg";
+import bgMedium from "./images/bgm.jpg";
+import bgSmall from "./images/bgs.jpg";
 
 export default function App() {
   const contactIcon = {
@@ -197,12 +200,28 @@ export default function App() {
         sx={{
           position: "relative",
           padding: "3rem 0",
-          backgroundImage: `linear-gradient(
-      0deg,
-      rgba(8, 11, 17, 0.7),
-      rgba(7, 8, 10, 0.7)
-    ),
-    url(https://images.pexels.com/photos/2098428/pexels-photo-2098428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)`,
+          backgroundImage: {
+            xs: `linear-gradient(
+              0deg,
+              rgba(8, 11, 17, 0.7),
+              rgba(7, 8, 10, 0.7)
+              ),
+              url(${bgSmall})`,
+
+            md: `linear-gradient(
+              0deg,
+              rgba(8, 11, 17, 0.7),
+              rgba(7, 8, 10, 0.7)
+              ),
+              url(${bgMedium})`,
+
+            lg: `linear-gradient(
+                0deg,
+                rgba(8, 11, 17, 0.7),
+                rgba(7, 8, 10, 0.7)
+                ),
+                url(${bgLarge})`,
+          },
           backgroundAttachment: "fixed",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
