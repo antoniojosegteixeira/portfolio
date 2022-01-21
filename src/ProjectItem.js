@@ -9,7 +9,7 @@ export default function ProjectItem({
   tools,
 }) {
   return (
-    <ListItem sx={{ padding: "3rem 0" }}>
+    <ListItem sx={{ padding: { xs: "2rem 0", md: "3rem 0" } }}>
       <Grid container>
         <Grid
           item

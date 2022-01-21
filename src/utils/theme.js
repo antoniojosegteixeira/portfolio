@@ -41,7 +41,7 @@ const theme = responsiveFontSizes(
       },
       body2: {
         fontFamily: "Raleway",
-        fontSize: "1rem",
+        fontSize: "0.9rem",
         fontWeight: "100",
         color: "#fff",
       },
