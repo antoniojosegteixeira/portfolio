@@ -7,15 +7,18 @@ const theme = responsiveFontSizes(
       h1: {
         fontFamily: ["Bigilla", "cursive"].join(","),
         color: "#fff",
+        fontWeight: "bold",
       },
       h2: {
         fontFamily: ["Bigilla", "cursive"].join(","),
         color: "#fff",
+        fontWeight: "bold",
       },
       h3: {
         fontFamily: ["Bigilla", "cursive"].join(","),
         color: "#fff",
         fontSize: 38,
+        fontWeight: "bold",
       },
       h4: {
         fontFamily: ["Bigilla", "cursive"].join(","),
@@ -32,7 +35,7 @@ const theme = responsiveFontSizes(
       },
       body1: {
         fontFamily: "Raleway",
-        fontSize: "1.25rem",
+        fontSize: "1.10rem",
         fontWeight: "100",
         color: "#fff",
       },
