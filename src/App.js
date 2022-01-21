@@ -78,6 +78,7 @@ export default function App() {
                   opacity: 0,
                   margin: "0 1rem",
                   fontSize: { md: "7.5rem" },
+                  fontWeight: { xs: "bold", md: "normal" },
                   transform: "translateY(110%)",
                   animation: `${rise} 1.3s ease-in-out 0.7s forwards`,
                 }}
@@ -91,6 +92,7 @@ export default function App() {
                 sx={{
                   opacity: 0,
                   margin: "0 1rem",
+                  fontWeight: { xs: "bold", md: "normal" },
                   transform: "translateX(110%)",
                   animation: `${appearFromRight} 2.1s ease-in-out 1.3s forwards`,
                   marginTop: { xs: "1rem", sm: 0 },
