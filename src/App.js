@@ -295,6 +295,7 @@ export default function App() {
                 variant="h1"
                 sx={{
                   textAlign: { xs: "center", md: "start" },
+                  lineHeight: 1,
                 }}
               >
                 CONTATO
