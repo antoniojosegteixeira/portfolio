@@ -1,3 +1,24 @@
 body {
   margin: 0;
 }
+
+@font-face {
+  font-family: Bigilla;
+  src: url(/public/fonts/Bigilla.otf);
+}
+@font-face {
+  font-family: Bigilla;
+  font-weight: bold;
+  src: url(/public/fonts/Bigilla-Bold.otf);
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url(/public/fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-family: Raleway;
+  font-weight: 100;
+  src: url(/public/fonts/Raleway-Light.ttf);
+}
