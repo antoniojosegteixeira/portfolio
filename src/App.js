@@ -7,6 +7,7 @@ import { rise, appearFromRight } from "./utils/appkeyframes";
 import burgerImg from "./images/burgerplace.webp";
 import recipeImg from "./images/recipe.jpg";
 import bikeImg from "./images/bike.jpg";
+import vocabuloImg from "./images/vocabulo.jpg";
 import shortImg from "./images/shortener.jpg";
 import heroVideo from "./videos/herovideo.mp4";
 import bgLarge from "./images/bgl.jpeg";
@@ -253,7 +254,7 @@ export default function App() {
               href="https://recipeb0ok.herokuapp.com/"
               image={recipeImg}
               title="Recipe Book"
-              description="Site de receitas consumindo a API Spoonacular. Possui sistema de favoritos baseado em cookies"
+              description="Site de receitas consumindo a API Spoonacular. Possui sistema de favoritos baseado em cookies."
               tools={["React", "NodeJS", "NextJS", "MaterialUI"]}
             ></ProjectItem>
             <ProjectItem
@@ -269,6 +270,13 @@ export default function App() {
                 "MaterialUI",
                 "JWT",
               ]}
+            ></ProjectItem>
+            <ProjectItem
+              href="https://vocabulo.herokuapp.com/"
+              image={vocabuloImg}
+              title="Vocábulo"
+              description="Jogo de palavras inspirado em Wordle e Term.ooo. Possui backend em NodeJS, valida as palavras através de uma API de dicionário. Estilizado em CSS puro."
+              tools={["React", "NodeJS", "NextJS", "MongoDB", "CSS"]}
             ></ProjectItem>
             <ProjectItem
               href="https://tinyurlshortnr.herokuapp.com/"
