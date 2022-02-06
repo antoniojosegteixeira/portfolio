@@ -4,7 +4,7 @@ import { Grid, List, Typography, Container, Link, Box } from "@mui/material";
 import ProjectItem from "./ProjectItem";
 import { ToolIcons } from "./utils/ToolIcons";
 import { rise, appearFromRight } from "./utils/appkeyframes";
-import burgerImg from "./images/burgerplace.webp";
+import burgerImg from "./images/burgerplace.jpg";
 import recipeImg from "./images/recipe.jpg";
 import bikeImg from "./images/bike.jpg";
 import vocabuloImg from "./images/vocabulo.jpg";
