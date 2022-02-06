@@ -1,8 +1,8 @@
 import React from "react";
+import "./utils/style.css";
 import { Grid, List, Typography, Container, Link, Box } from "@mui/material";
 import ProjectItem from "./ProjectItem";
 import { ToolIcons } from "./utils/ToolIcons";
-import "./utils/style.css";
 import { rise, appearFromRight } from "./utils/appkeyframes";
 import burgerImg from "./images/burgerplace.webp";
 import recipeImg from "./images/recipe.jpg";
@@ -247,21 +247,28 @@ export default function App() {
               image={burgerImg}
               title="Burger Bistro"
               description="Landing page para uma hamburgueria construída com Bootstrap 5."
-              tools={["HTML", "CSS", "Javascript", "Bootstrap"]}
+              tools={["HTML", "CSS", "SASS", "Javascript", "Bootstrap"]}
             ></ProjectItem>
             <ProjectItem
               href="https://recipeb0ok.herokuapp.com/"
               image={recipeImg}
               title="Recipe Book"
-              description="Site de receitas consumindo a API Spoonacular."
+              description="Site de receitas consumindo a API Spoonacular. Possui sistema de favoritos baseado em cookies"
               tools={["React", "NodeJS", "NextJS", "MaterialUI"]}
             ></ProjectItem>
             <ProjectItem
               href="https://burbankbikeshop.herokuapp.com/"
               image={bikeImg}
               title="Burbank Bike Shop"
-              description="Loja online de mountain bikes em estilo moderno."
-              tools={["React", "NodeJS", "MongoDB", "NextJS", "MaterialUI"]}
+              description="Loja online de mountain bikes em estilo moderno. Possui sistema de autenticação com JWT e integra API do Paypal para gerenciar pagamentos"
+              tools={[
+                "React",
+                "NodeJS",
+                "MongoDB",
+                "NextJS",
+                "MaterialUI",
+                "JWT",
+              ]}
             ></ProjectItem>
             <ProjectItem
               href="https://tinyurlshortnr.herokuapp.com/"
