@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8a685450.css",
-    "main.js": "/portfolio/static/js/main.a3de205e.js",
+    "main.css": "/portfolio/static/css/main.49916ed0.css",
+    "main.js": "/portfolio/static/js/main.9b63f825.js",
     "static/media/herovideo.mp4": "/portfolio/static/media/herovideo.56b9589c7f8ab2eb6937.mp4",
     "static/media/bgm.jpg": "/portfolio/static/media/bgm.37d58f6a00301f446d72.jpg",
     "static/media/bgs.jpg": "/portfolio/static/media/bgs.7c6147e82cf004d8a551.jpg",
     "static/media/bgl.jpeg": "/portfolio/static/media/bgl.ee347f9734ebd1f2c377.jpeg",
     "static/media/bike.jpg": "/portfolio/static/media/bike.7f3d8422e5d3ae343757.jpg",
+    "static/media/Bigilla-Bold.otf": "/portfolio/static/media/Bigilla-Bold.d3832cdc3852c3e78f7f.otf",
+    "static/media/Bigilla.otf": "/portfolio/static/media/Bigilla.fdbf1198c562478dc034.otf",
+    "static/media/Raleway-Light.ttf": "/portfolio/static/media/Raleway-Light.6c9d8824514ff15e3839.ttf",
+    "static/media/Raleway-Regular.ttf": "/portfolio/static/media/Raleway-Regular.a9338128bb2e46698401.ttf",
+    "static/media/burgerplace.jpg": "/portfolio/static/media/burgerplace.c9d1071dbd5bf2f117e7.jpg",
     "static/media/bootstrapicon.png": "/portfolio/static/media/bootstrapicon.a06f5547d48e0a48c5bc.png",
     "static/media/recipe.jpg": "/portfolio/static/media/recipe.b365626cc6bc18eae95a.jpg",
+    "static/media/vocabulo.jpg": "/portfolio/static/media/vocabulo.1ed62f45013d22928c96.jpg",
     "static/media/shortener.jpg": "/portfolio/static/media/shortener.8d10133a04cd6b68f0dd.jpg",
-    "static/media/burgerplace.webp": "/portfolio/static/media/burgerplace.314a2b7b619244cab5c7.webp",
     "index.html": "/portfolio/index.html",
-    "main.8a685450.css.map": "/portfolio/static/css/main.8a685450.css.map",
-    "main.a3de205e.js.map": "/portfolio/static/js/main.a3de205e.js.map"
+    "main.49916ed0.css.map": "/portfolio/static/css/main.49916ed0.css.map",
+    "main.9b63f825.js.map": "/portfolio/static/js/main.9b63f825.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a685450.css",
-    "static/js/main.a3de205e.js"
+    "static/css/main.49916ed0.css",
+    "static/js/main.9b63f825.js"
   ]
 }
