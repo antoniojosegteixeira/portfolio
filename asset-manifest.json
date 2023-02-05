@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a8fa949e.css",
+    "main.js": "/portfolio/static/js/main.1b350ce3.js",
+    "static/media/herovideo.mp4": "/portfolio/static/media/herovideo.56b9589c7f8ab2eb6937.mp4",
+    "static/media/bgm.jpg": "/portfolio/static/media/bgm.37d58f6a00301f446d72.jpg",
+    "static/media/NotoSans.ttf": "/portfolio/static/media/NotoSans.2cfb54d923b32fbd5525.ttf",
+    "static/media/ff3.png": "/portfolio/static/media/ff3.f545a4c84f660a31ec20.png",
+    "static/media/bgs.jpg": "/portfolio/static/media/bgs.7c6147e82cf004d8a551.jpg",
+    "static/media/bgl.jpeg": "/portfolio/static/media/bgl.ee347f9734ebd1f2c377.jpeg",
+    "static/media/Bigilla-Bold.otf": "/portfolio/static/media/Bigilla-Bold.d3832cdc3852c3e78f7f.otf",
+    "static/media/Bigilla.otf": "/portfolio/static/media/Bigilla.fdbf1198c562478dc034.otf",
+    "static/media/Raleway-Light.ttf": "/portfolio/static/media/Raleway-Light.6c9d8824514ff15e3839.ttf",
+    "static/media/Raleway-Regular.ttf": "/portfolio/static/media/Raleway-Regular.a9338128bb2e46698401.ttf",
+    "static/media/burgerplace.jpg": "/portfolio/static/media/burgerplace.c9d1071dbd5bf2f117e7.jpg",
+    "static/media/ff2.png": "/portfolio/static/media/ff2.de40cc9398bfdc7ddbb4.png",
+    "static/media/bootstrapicon.png": "/portfolio/static/media/bootstrapicon.a06f5547d48e0a48c5bc.png",
+    "static/media/find1.png": "/portfolio/static/media/find1.6bf2e88eb80ec0d80836.png",
+    "static/media/ff1.png": "/portfolio/static/media/ff1.8dfd93ed1ab980ecb7e6.png",
+    "static/media/free.png": "/portfolio/static/media/free.60993a27cb1ef7c707e3.png",
+    "static/media/recipe.jpg": "/portfolio/static/media/recipe.b365626cc6bc18eae95a.jpg",
+    "static/media/ff4.png": "/portfolio/static/media/ff4.8092966a608669d6e958.png",
+    "static/media/blocicon.png": "/portfolio/static/media/blocicon.1b3c9caaa0fe7ddc31fa.png",
+    "static/media/fireImg.png": "/portfolio/static/media/fireImg.490b7f6154ce2d79db1f.png",
+    "index.html": "/portfolio/index.html",
+    "main.a8fa949e.css.map": "/portfolio/static/css/main.a8fa949e.css.map",
+    "main.1b350ce3.js.map": "/portfolio/static/js/main.1b350ce3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8fa949e.css",
+    "static/js/main.1b350ce3.js"
+  ]
+}
