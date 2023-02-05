@@ -137,8 +137,8 @@ export default function FreeFire() {
             >
               <Grid item sm={11} md={10} lg={9}>
                 <Typography
-                  variant="h3"
-                  component="h2"
+                  variant="h4"
+                  component="h4"
                   color="primary"
                   sx={{
                     paddingBottom: { xs: "1rem", md: "2.5rem" },
@@ -175,7 +175,8 @@ export default function FreeFire() {
                   É construído em padrão DDD (Domain Driven Design). As injeções
                   de dependência são gerenciadas por GetIt e o gerenciador de
                   estados de escolha foi Cubit. Seu back-end é construído em
-                  Firebase.
+                  Firebase. Testes unitários foram realizados utilizando
+                  Mockito.
                 </Typography>
               </Grid>
             </Grid>

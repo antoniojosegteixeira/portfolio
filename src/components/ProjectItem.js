@@ -102,7 +102,7 @@ export default function ProjectItem({
           <Typography
             component="h2"
             variant="h4"
-            style={{ textTransform: "uppercase", fontFamily: "Notosans" }}
+            style={{ fontFamily: "Notosans" }}
           >
             {title}
           </Typography>
