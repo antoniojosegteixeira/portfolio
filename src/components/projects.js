@@ -82,6 +82,13 @@ export default function ProjectsSection() {
               "Clean Architecture",
             ]}
           ></ProjectItem>
+          <ProjectItem
+            href="https://antoniojosegteixeira.github.io/burger-place-website/"
+            image={burgerImg}
+            title="Burger Bistro"
+            description="Landing page para uma hamburgueria construída com Bootstrap 5."
+            tools={["HTML", "CSS", "SASS", "Javascript", "Bootstrap"]}
+          ></ProjectItem>
         </List>
       </Container>
     </Box>
