@@ -58,7 +58,7 @@ export default function ProjectsSection() {
         </Typography>
         <List>
           <ProjectItem
-            href="https://github.com/"
+            href="https://github.com/antoniojosegteixeira/free-fire-location"
             image={freeImg}
             title="Free Fire Location"
             description="Aplicativo em Flutter para localização de incêndios em tempo real. Consome dados de satélites do INPE e NASA, além de prover informações sobre o tempo local. Usuários podem contribuir adicionando ocorrências de incêndio."
