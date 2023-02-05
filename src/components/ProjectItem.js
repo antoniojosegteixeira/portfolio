@@ -1,5 +1,6 @@
 import React from "react";
-import { Grid, ListItem, Typography, Link, Box, Button } from "@mui/material";
+import { Grid, ListItem, Typography, Box, Button, Link } from "@mui/material";
+import { Link as LinkRouter } from "react-router-dom";
 
 export default function ProjectItem({
   href,
@@ -7,6 +8,7 @@ export default function ProjectItem({
   title,
   description,
   tools,
+  knowMore = null,
 }) {
   return (
     <ListItem sx={{ padding: { xs: "2rem 0", md: "3rem 0" } }}>
@@ -27,7 +29,6 @@ export default function ProjectItem({
             onClick={() => window.open(href)}
             sx={{
               position: "relative",
-              backgroundColor: "white",
               lineHeight: 0,
               display: "flex",
               alignItems: "center",
@@ -100,8 +101,8 @@ export default function ProjectItem({
         >
           <Typography
             component="h2"
-            variant="h3"
-            style={{ textTransform: "uppercase" }}
+            variant="h4"
+            style={{ textTransform: "uppercase", fontFamily: "Notosans" }}
           >
             {title}
           </Typography>
@@ -134,59 +135,76 @@ export default function ProjectItem({
               },
             }}
           >
-            {tools.map((item) => {
-              return (
-                <Grid item key={item}>
-                  <Typography
-                    component="span"
-                    variant="body2"
-                    sx={{ lineHeight: "1.2rem" }}
-                  >
-                    {item}
-                  </Typography>
-                </Grid>
-              );
-            })}
+            {mapTools(tools)}
           </Grid>
           <Grid
             container
+            item
             xs={12}
             sx={{
               display: "flex",
               flexDirection: "row",
               justifyContent: { xs: "center", md: "start" },
             }}
-          >
-            <Grid item xs={12} sm={5} md={12}>
-              <Button
-                sx={{
-                  width: "100%",
-                  borderRadius: 2,
-                  padding: "0.5rem",
-                  paddingY: "0.9em",
-                  marginTop: "0.5em",
-                  backgroundColor: "white",
-                  "&:hover": {
-                    backgroundColor: "#c1cbce",
-                  },
-                }}
-              >
-                <Typography
-                  component="span"
-                  variant="body2"
-                  sx={{
-                    lineHeight: "1.2rem",
-                    color: "black",
-                    fontWeight: "bold",
-                  }}
-                >
-                  Saiba mais
-                </Typography>
-              </Button>
-            </Grid>
-          </Grid>
+          ></Grid>
+          {generateLinkButton(knowMore)}
         </Grid>
       </Grid>
     </ListItem>
   );
+}
+
+function mapTools(tools) {
+  if (tools != null) {
+    return tools.map((item) => {
+      return (
+        <Grid item key={item}>
+          <Typography
+            component="span"
+            variant="body2"
+            sx={{ lineHeight: "1.2rem" }}
+          >
+            {item}
+          </Typography>
+        </Grid>
+      );
+    });
+  }
+}
+
+function generateLinkButton(knowMore) {
+  console.log(knowMore);
+  if (knowMore !== null) {
+    return (
+      <Grid item xs={12} sm={5} md={12}>
+        <LinkRouter to={`${knowMore}`} style={{ textDecoration: "none" }}>
+          <Button
+            sx={{
+              width: "100%",
+              borderRadius: 2,
+              padding: "0.5rem",
+              paddingY: "0.9em",
+              marginTop: "0.5em",
+              backgroundColor: "white",
+              "&:hover": {
+                backgroundColor: "#c1cbce",
+              },
+            }}
+          >
+            <Typography
+              component="span"
+              variant="body2"
+              sx={{
+                lineHeight: "1.2rem",
+                color: "black",
+                fontWeight: "bold",
+              }}
+            >
+              Saiba mais
+            </Typography>
+          </Button>
+        </LinkRouter>
+      </Grid>
+    );
+  }
 }
