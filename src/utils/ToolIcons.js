@@ -1,7 +1,294 @@
 import React from "react";
 import bootstrapIcon from "../icons/bootstrapicon.png";
+import blocIcon from "../icons/blocicon.png";
+import djangoIcon from "../icons/djangoicon.png";
 
 export const ToolIcons = [
+  {
+    e: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="80"
+        height="80"
+        data-name="Layer 1"
+        style={{ transform: "scale(0.9)" }}
+      >
+        <defs>
+          <radialGradient
+            id="radial-gradient"
+            cx="251.42"
+            cy="631.97"
+            r="251.4"
+            gradientTransform="matrix(.13773 0 0 .15853 .159 -60.596)"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset="0" stopColor="#fff" stopOpacity="0.1"></stop>
+            <stop offset="1" stopColor="#fff" stopOpacity="0"></stop>
+          </radialGradient>
+        </defs>
+        <g stroke="null">
+          <path
+            fill="#01579b"
+            stroke="null"
+            d="M16.297 63.463L2.631 49.829C1.004 48.166 0 45.816 0 43.53c0-1.06.6-2.72 1.052-3.67l12.614-26.226 2.631 49.829z"
+            className="cls-1"
+          ></path>
+          <path
+            fill="#40c4ff"
+            stroke="null"
+            d="M63.084 16.26L49.42 2.624C48.225 1.427 45.74 0 43.636 0c-1.808 0-3.583.363-4.729 1.05l-25.23 12.584 49.407 2.625z"
+            className="cls-2"
+          ></path>
+          <path
+            fill="#40c4ff"
+            stroke="null"
+            d="M32.592437744140625 79.72197373047402L65.7140121459961 79.72197373047402 65.7140121459961 65.56171487383017 41.00471496582031 57.69050288929384 18.399288177490234 65.56171487383017 32.592437744140625 79.72197373047402z"
+            className="cls-2"
+          ></path>
+          <path
+            fill="#29b6f6"
+            stroke="null"
+            d="M13.666 56.121c0 4.208.529 5.24 2.626 7.343l2.103 2.1h47.319L42.586 39.338l-28.92-25.705V56.12z"
+            className="cls-3"
+          ></path>
+          <path
+            fill="#01579b"
+            stroke="null"
+            d="M55.727 13.634H13.666l52.048 51.921h14.193V33.038L63.084 16.253c-2.364-2.362-4.462-2.62-7.357-2.62z"
+            className="cls-1"
+          ></path>
+          <path
+            fill="#fff"
+            stroke="null"
+            d="M16.825 63.984c-2.103-2.103-2.625-4.179-2.625-7.863v-41.96l-.523-.527V56.12c0 3.686 0 4.707 3.148 7.865l1.574 1.571h0l-1.574-1.573z"
+            className="cls-4"
+            opacity="0.2"
+          ></path>
+          <path
+            fill="#263238"
+            stroke="null"
+            d="M79.38436889648438 32.516898376177096L79.38436889648438 65.03379675235419 65.19123077392578 65.03379675235419 65.7140121459961 65.56171487383017 79.90716552734375 65.56171487383017 79.90716552734375 33.038477148012134 79.38436889648438 32.516898376177096z"
+            className="cls-5"
+            opacity="0.2"
+          ></path>
+          <path
+            fill="#fff"
+            stroke="null"
+            d="M63.084 16.26c-2.604-2.604-4.737-2.626-7.88-2.626H13.677l.523.521h41.004c1.569 0 5.528-.263 7.883 2.1l-.003.004z"
+            className="cls-4"
+            opacity="0.2"
+          ></path>
+          <path
+            fill="url(#radial-gradient)"
+            stroke="null"
+            d="M79.384 32.517l-16.3-16.258L49.42 2.625C48.225 1.427 45.74 0 43.636 0c-1.808 0-3.583.363-4.729 1.05l-25.23 12.584L1.057 39.86C.605 40.816 0 42.474 0 43.53c0 2.291 1.01 4.63 2.625 6.294l12.603 12.48a14.686 14.652 0 001.069 1.16l.523.522 1.573 1.571 13.666 13.634.522.521h33.116V65.555H79.89V33.038l-.506-.521z"
+            className="cls-6"
+            opacity="0.2"
+          ></path>
+        </g>
+      </svg>
+    ),
+
+    title: "Dart",
+  },
+  {
+    e: (
+      <svg
+        width="800px"
+        height="800px"
+        viewBox="-30.5 0 317 317"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+        preserveAspectRatio="xMidYMid"
+        style={{ padding: "9px" }}
+      >
+        <defs>
+          <linearGradient
+            x1="3.9517088%"
+            y1="26.9930287%"
+            x2="75.8970734%"
+            y2="52.9192657%"
+            id="linearGradient-1"
+          >
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0" offset="100%"></stop>
+          </linearGradient>
+        </defs>
+        <g>
+          <polygon
+            fill="#47C5FB"
+            points="157.665785 0.000549356223 0.000549356223 157.665785 48.8009614 206.466197 255.267708 0.000549356223"
+          ></polygon>
+          <polygon
+            fill="#47C5FB"
+            points="156.567183 145.396793 72.1487107 229.815265 121.132608 279.530905 169.842925 230.820587 255.267818 145.396793"
+          ></polygon>
+          <polygon
+            fill="#00569E"
+            points="121.133047 279.531124 158.214592 316.61267 255.267159 316.61267 169.842266 230.820807"
+          ></polygon>
+          <polygon
+            fill="#00B5F8"
+            points="71.5995742 230.364072 120.401085 181.562561 169.842046 230.821136 121.132827 279.531454"
+          ></polygon>
+          <polygon
+            fill-opacity="0.8"
+            fill="url(#linearGradient-1)"
+            points="121.132827 279.531454 161.692896 266.072227 165.721875 234.941308"
+          ></polygon>
+        </g>
+      </svg>
+    ),
+    title: "Flutter",
+  },
+  {
+    e: <img src={blocIcon} className="svg-icon" alt="#" />,
+    title: "BLOC",
+  },
+  {
+    e: (
+      <svg
+        viewBox="-47.5 0 351 351"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+        preserveAspectRatio="xMidYMid"
+        fill="#000000"
+      >
+        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g
+          id="SVGRepo_tracerCarrier"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        ></g>
+        <g id="SVGRepo_iconCarrier">
+          <defs>
+            <path
+              d="M1.25273437,280.731641 L2.85834533,277.600858 L102.211177,89.0833546 L58.0613266,5.6082033 C54.3920011,-1.28304578 45.0741245,0.473674398 43.8699203,8.18789086 L1.25273437,280.731641 Z"
+              id="path-1"
+            ></path>
+            <filter
+              x="-50%"
+              y="-50%"
+              width="200%"
+              height="200%"
+              filterUnits="objectBoundingBox"
+              id="filter-2"
+            >
+              <feGaussianBlur
+                stdDeviation="17.5"
+                in="SourceAlpha"
+                result="shadowBlurInner1"
+              ></feGaussianBlur>
+              <feOffset
+                dx="0"
+                dy="0"
+                in="shadowBlurInner1"
+                result="shadowOffsetInner1"
+              ></feOffset>
+              <feComposite
+                in="shadowOffsetInner1"
+                in2="SourceAlpha"
+                operator="arithmetic"
+                k2="-1"
+                k3="1"
+                result="shadowInnerInner1"
+              ></feComposite>
+              <feColorMatrix
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"
+                type="matrix"
+                in="shadowInnerInner1"
+              ></feColorMatrix>
+            </filter>
+            <path
+              d="M134.417103,148.974235 L166.455722,116.161738 L134.417104,55.1546874 C131.374828,49.3635911 123.983911,48.7568362 120.973828,54.5646483 L103.26875,88.6738296 L102.739423,90.4175473 L134.417103,148.974235 Z"
+              id="path-3"
+            ></path>
+            <filter
+              x="-50%"
+              y="-50%"
+              width="200%"
+              height="200%"
+              filterUnits="objectBoundingBox"
+              id="filter-4"
+            >
+              <feGaussianBlur
+                stdDeviation="3.5"
+                in="SourceAlpha"
+                result="shadowBlurInner1"
+              ></feGaussianBlur>
+              <feOffset
+                dx="1"
+                dy="-9"
+                in="shadowBlurInner1"
+                result="shadowOffsetInner1"
+              ></feOffset>
+              <feComposite
+                in="shadowOffsetInner1"
+                in2="SourceAlpha"
+                operator="arithmetic"
+                k2="-1"
+                k3="1"
+                result="shadowInnerInner1"
+              ></feComposite>
+              <feColorMatrix
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.09 0"
+                type="matrix"
+                in="shadowInnerInner1"
+              ></feColorMatrix>
+            </filter>
+          </defs>
+          <g>
+            <path
+              d="M0,282.99762 L2.12250746,280.0256 L102.527363,89.5119284 L102.739423,87.4951323 L58.478806,4.35817711 C54.7706269,-2.60604179 44.3313035,-0.845245771 43.1143483,6.95065473 L0,282.99762 Z"
+              fill="#FFC24A"
+            ></path>
+            <g>
+              <use fill="#FFA712" fill-rule="evenodd" xlinkHref="#path-1"></use>
+              <use
+                fill="#000000"
+                fill-opacity="1"
+                filter="url(#filter-2)"
+                xlinkHref="#path-1"
+              ></use>
+            </g>
+            <path
+              d="M135.004975,150.380704 L167.960199,116.629461 L134.995423,53.6993114 C131.866109,47.7425353 123.128817,47.7253411 120.032618,53.6993112 L102.421015,87.2880848 L102.421015,90.1487443 L135.004975,150.380704 Z"
+              fill="#F4BD62"
+            ></path>
+            <g>
+              <use fill="#FFA50E" fill-rule="evenodd" xlinkHref="#path-3"></use>
+              <use
+                fill="#000000"
+                fill-opacity="1"
+                filter="url(#filter-4)"
+                xlinkHref="#path-3"
+              ></use>
+            </g>
+            <polygon
+              fill="#F6820C"
+              points="0 282.99762 0.962097168 282.030396 4.45771144 280.60956 132.935323 152.60956 134.563025 148.178595 102.513123 87.1048584"
+            ></polygon>
+            <path
+              d="M139.120971,347.551268 L255.395916,282.703666 L222.191698,78.2093373 C221.153051,71.8112478 213.303658,69.2818149 208.724314,73.8694368 L0.000254726368,282.997875 L115.608454,347.545536 C122.914643,351.624979 131.812872,351.62689 139.120971,347.551268"
+              fill="#FDE068"
+            ></path>
+            <path
+              d="M254.354084,282.159837 L221.401937,79.2179369 C220.371175,72.8684188 213.843792,70.2409553 209.299213,74.79375 L1.28945312,282.600785 L115.627825,346.509458 C122.878548,350.557931 131.709226,350.559827 138.961846,346.515146 L254.354084,282.159837 Z"
+              fill="#FCCA3F"
+            ></path>
+            <path
+              d="M139.120907,345.64082 C131.812808,349.716442 122.914579,349.714531 115.60839,345.635089 L0.93134768,282.014551 L0.000191044776,282.997875 L115.60839,347.545536 C122.914579,351.624979 131.812808,351.62689 139.120907,347.551268 L255.395853,282.703666 L255.111196,280.951785 L139.120907,345.64082 Z"
+              fill="#EEAB37"
+            ></path>
+          </g>
+        </g>
+      </svg>
+    ),
+    title: "Firebase",
+  },
+
   {
     e: (
       <svg

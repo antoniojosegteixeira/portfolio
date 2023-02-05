@@ -1,12 +1,4 @@
-import {
-  List,
-  Typography,
-  Container,
-  Box,
-  Grid,
-  Link,
-  Button,
-} from "@mui/material";
+import { List, Typography, Container, Box, Grid, Button } from "@mui/material";
 import { useEffect } from "react";
 import DescriptionItem from "../components/DescriptionItem";
 
@@ -93,38 +85,39 @@ export default function FreeFire() {
               paddingTop: "1rem",
             }}
           >
-            <Link
-              href="https://github.com/antoniojosegteixeira/free-fire-location"
-              underline="none"
+            <Button
+              onClick={() =>
+                window.open(
+                  "https://github.com/antoniojosegteixeira/free-fire-location"
+                )
+              }
             >
-              <Button>
-                <Typography
-                  sx={{
-                    transition: "all 0.3s ease-in-out",
-                    "&:hover": {
-                      transform: "scale(1.11)",
-                    },
-                  }}
-                  align="center"
-                  variant="h3"
-                >
-                  <i className="fab fa-github"></i>
-                </Typography>
-                <Typography
-                  variant="subtitle"
-                  component="subtitle"
-                  color="primary"
-                  align="center"
-                  sx={{
-                    paddingLeft: "0.5rem",
-                    paddingTop: "0.5rem",
-                    fontFamily: "Notosans",
-                  }}
-                >
-                  Acesse o repositório
-                </Typography>
-              </Button>
-            </Link>
+              <Typography
+                sx={{
+                  transition: "all 0.3s ease-in-out",
+                  "&:hover": {
+                    transform: "scale(1.11)",
+                  },
+                }}
+                align="center"
+                variant="h3"
+              >
+                <i className="fab fa-github"></i>
+              </Typography>
+              <Typography
+                variant="subtitle"
+                component="subtitle"
+                color="primary"
+                align="center"
+                sx={{
+                  paddingLeft: "0.5rem",
+                  paddingTop: "0.5rem",
+                  fontFamily: "Notosans",
+                }}
+              >
+                Acesse o repositório
+              </Typography>
+            </Button>
           </Box>
 
           <List>
