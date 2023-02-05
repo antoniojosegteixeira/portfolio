@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, ListItem, Typography, Link, Box } from "@mui/material";
+import { Grid, ListItem, Typography, Link, Box, Button } from "@mui/material";
 
 export default function ProjectItem({
   href,
@@ -147,6 +147,43 @@ export default function ProjectItem({
                 </Grid>
               );
             })}
+          </Grid>
+          <Grid
+            container
+            xs={12}
+            sx={{
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: { xs: "center", md: "start" },
+            }}
+          >
+            <Grid item xs={12} sm={5} md={12}>
+              <Button
+                sx={{
+                  width: "100%",
+                  borderRadius: 2,
+                  padding: "0.5rem",
+                  paddingY: "0.9em",
+                  marginTop: "0.5em",
+                  backgroundColor: "white",
+                  "&:hover": {
+                    backgroundColor: "#c1cbce",
+                  },
+                }}
+              >
+                <Typography
+                  component="span"
+                  variant="body2"
+                  sx={{
+                    lineHeight: "1.2rem",
+                    color: "black",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Saiba mais
+                </Typography>
+              </Button>
+            </Grid>
           </Grid>
         </Grid>
       </Grid>

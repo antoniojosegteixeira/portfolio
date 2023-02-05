@@ -7,13 +7,9 @@ import { Header } from "./components/header";
 import Myself from "./components/myself";
 import ProjectsSection from "./components/projects";
 
-export default function App() {
-  
-
+export default function KnowMore() {
   return (
     <Box sx={{ p: 0 }}>
-      <Header />
-      <Myself />
       <ProjectsSection />
       <Footer />
     </Box>
