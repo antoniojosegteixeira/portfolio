@@ -1,6 +1,5 @@
-# Welcome to my Portfolio
+# Bem vindo ao meu Portfolio!
 
-Made with Create React App and Material UI v5. 
+Feito com Create React App e Material UI v5. 
 
-
-![Antônio Teixeira's Portfolio](https://raw.githubusercontent.com/antoniojosegteixeira/portfolio/master/public/screenshot.jpg)
+![image](https://user-images.githubusercontent.com/75284432/216852762-f0fc1779-03e2-4f6e-acd1-01d1905d30bd.png)
